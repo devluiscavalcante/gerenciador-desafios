@@ -65,16 +65,11 @@ Request:
 }
 ```
 Listar Todos os Desafios  
-
 GET /desafios  
 
-Retorna a lista de todos os desafios.
-
 Atualizar um Desafio  
-
 PUT /desafios/{id}  
 
-Atualiza um desafio existente.  
 
 Request:
 ```bash
@@ -85,13 +80,11 @@ Request:
 }
 ```
 Marcar Desafio como Concluído  
-
 PUT /desafios/{id}/concluir
 
 Excluir um Desafio  
-
 DELETE /desafios/{id}
 
-📅 Próximos Passos
-🔹 Implementar autenticação JWT 🔐
-🔹 Adicionar notificações para desafios pendentes 🔔
+📅 Próximos Passos  
+🔹 Implementar autenticação JWT 🔐  
+🔹 Adicionar notificações para desafios pendentes 🔔  
