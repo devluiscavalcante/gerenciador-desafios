@@ -57,8 +57,6 @@ Cria um novo desafio.
 
 Request:
 
-json
-Copy
 ```bash
 {
   "titulo": "Ler um livro",
@@ -66,13 +64,17 @@ Copy
   "dataLimite": "2025-03-30"
 }
 ```
-Listar Todos os Desafios
-GET /desafios
+Listar Todos os Desafios  
+
+GET /desafios  
+
 Retorna a lista de todos os desafios.
 
-Atualizar um Desafio
-PUT /desafios/{id}
-Atualiza um desafio existente.
+Atualizar um Desafio  
+
+PUT /desafios/{id}  
+
+Atualiza um desafio existente.  
 
 Request:
 ```bash
@@ -82,13 +84,13 @@ Request:
   "dataLimite": "2025-03-30"
 }
 ```
-Marcar Desafio como Concluído
-PUT /desafios/{id}/concluir
-Marca o desafio como concluído.
+Marcar Desafio como Concluído  
 
-Excluir um Desafio
+PUT /desafios/{id}/concluir
+
+Excluir um Desafio  
+
 DELETE /desafios/{id}
-Exclui um desafio existente.
 
 📅 Próximos Passos
 🔹 Implementar autenticação JWT 🔐
