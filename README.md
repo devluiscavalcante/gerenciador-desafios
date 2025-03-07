@@ -50,12 +50,9 @@ A API estará disponível em:
 ```bash
 http://localhost:8080/
 ```
-🛠 Exemplos de Uso (Endpoints)
+🛠 Exemplos de Uso (Endpoints)  
 Criar um Desafio
 POST /desafios
-Cria um novo desafio.
-
-Request:
 
 ```bash
 {
@@ -70,8 +67,6 @@ GET /desafios
 Atualizar um Desafio  
 PUT /desafios/{id}  
 
-
-Request:
 ```bash
 {
   "titulo": "Ler dois livros",
