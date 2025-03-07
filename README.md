@@ -37,8 +37,6 @@ git clone https://github.com/seu-usuario/gerenciador-desafios.git
 2️⃣ Configurar o Banco de Dados
 No arquivo src/main/resources/application.properties, adicione as configurações do seu banco de dados PostgreSQL:
 
-properties
-Copy
 ```bash
 spring.datasource.url=jdbc:postgresql://localhost:5432/desafios_db
 spring.datasource.username=seu_usuario
@@ -46,7 +44,8 @@ spring.datasource.password=sua_senha
 spring.jpa.hibernate.ddl-auto=update
 ```
 
-3️⃣ Compilar e Executar
+3️⃣ Compilar e Executar  
+
 A API estará disponível em:
 ```bash
 http://localhost:8080/
